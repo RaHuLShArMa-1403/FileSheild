@@ -16,7 +16,7 @@ public class MyConnection {
         }
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project?useSSL=false&allowPublicKeyRetrieval=true", "root", "Rahul1403");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project?useSSL=false&allowPublicKeyRetrieval=true", "tablename", "**");
             System.out.println("done");
             return connection;
         } catch (SQLException e) {
